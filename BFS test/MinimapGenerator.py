@@ -41,7 +41,7 @@ def find_immediate_levels(master_data, start_id):
     }
 
 # ---- Ejemplo de uso ----
-with open("mapa.json", "r", encoding="utf-8") as f:
+with open("BFS test/mapa.json", "r", encoding="utf-8") as f:
     master_data = json.load(f)
 
 # Nodo de inicio (Obreras en tu ejemplo: id 131)
@@ -52,7 +52,7 @@ info = find_immediate_levels(master_data, start_id)
 start_node = next((n for n in master_data["worlds"][0]["nodes"] if n["id"] == start_id), None)
 start_name = start_node["title"] if start_node and start_node["title"] else str(start_id)
 safe_name = re.sub(r'[^\w\d-]+', '_', start_name)
-filename = f"minimap_{safe_name}.json"
+filename = f"BFS test/minimap_{safe_name}.json"
 
 # Exporta solo el mini-mapa (con nodos y edges alcanzados según tus reglas)
 with open(filename, "w", encoding="utf-8") as f_out:
