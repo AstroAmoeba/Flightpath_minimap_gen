@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": 146,
+      "gridX": 13,
+      "gridY": 4,
+      "title": "Cadena Reproductiva",
+      "url": "/pages/levels/reproductive-chain.html",
+      "type": "level",
+      "connections": {
+        "left": 145,
+        "down": 147
+      }
+    },
+    {
+      "id": 147,
+      "gridX": 13,
+      "gridY": 5,
+      "title": "Agricultura",
+      "url": "/pages/levels/agriculture.html",
+      "type": "level",
+      "connections": {
+        "up": 146,
+        "down": 148
+      }
+    },
+    {
+      "id": 148,
+      "gridX": 13,
+      "gridY": 6,
+      "title": "Cultura",
+      "url": "/pages/levels/culture.html",
+      "type": "level",
+      "connections": {
+        "up": 147
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": 147,
+      "to": 148
+    },
+    {
+      "from": 147,
+      "to": 146
+    }
+  ]
+}
