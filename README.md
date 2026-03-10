@@ -45,3 +45,5 @@ Minimapa:
 
 <img width="489" height="323" alt="image" src="https://github.com/user-attachments/assets/c2126610-cfa5-4d50-ad1d-58351e1d2a27" />
 
+Fun fact:  Considérese la propagación de calor en un medio homogéneo con paredes adiabáticas y diatérmicas :^)
+
