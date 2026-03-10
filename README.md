@@ -45,5 +45,7 @@ Minimapa:
 
 <img width="489" height="323" alt="image" src="https://github.com/user-attachments/assets/c2126610-cfa5-4d50-ad1d-58351e1d2a27" />
 
+El código en C para una busqueda por anchura se puede ver en la página de wikipedia del BFS en alemán: https://de.wikipedia.org/wiki/Breitensuche
+
 Fun fact:  Considérese la propagación de calor en un medio homogéneo con paredes adiabáticas y diatérmicas :^)
 
